@@ -172,8 +172,12 @@ h1 {
 
 @media (max-width: 600px) {
   body {
-    padding: 10px;
+    transform: scale(0.85);
+    transform-origin: top center;
+    height: auto;
+    padding: 20px 0;
   }
+
 
   h1 {
     font-size: 20px;
@@ -210,8 +214,9 @@ h1 {
   }
 
   #toggleFormat {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 14px;
     padding: 10px 20px;
   }
 }
+
